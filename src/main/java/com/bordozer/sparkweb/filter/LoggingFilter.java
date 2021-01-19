@@ -1,4 +1,4 @@
-package com.bordozer.sparkweb;
+package com.bordozer.sparkweb.filter;
 
 import lombok.extern.slf4j.Slf4j;
 import spark.Filter;
