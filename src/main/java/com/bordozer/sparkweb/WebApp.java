@@ -10,7 +10,7 @@ public class WebApp {
 
     public static void main(String[] args) {
         afterAfter(new LoggingFilter());
-        get("/", (request, response) -> welcome());
+        get("/", "application/json", (request, response) -> welcome());
     }
 
     private static String welcome() {
